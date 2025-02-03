@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar javascript</title>
+    <style>
+      .cont {
+        text-align: center;
+      }
+
+      button {
+        padding-inline-end: 15px;
+        padding-inline-start: 15px;
+        margin: 3px;
+        padding-block-end: 9px;
+        padding-block-start: 9px;
+      }
+
+      .merah {
+        accent-color: red;
+      }
+      input[name="sHijau"] {
+        accent-color: green;
+      }
+      .biru {
+        accent-color: blue;
+      }
+      .masuk {
+        position: fixed;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: black;
+      }
+      span {
+        background-color: white;
+        padding: 2px;
+        border: 2px solid;
+        border-radius: 30%;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        cursor: pointer;
+      }
+      .textawal {
+        margin-top: 200px;
+        margin-left: 20px;
+        color: white;
+      }
+      .hapus {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="masuk">
+      <h4 class="textawal">
+        Selamat datang di website hasil study kasus praktek belajar
+        javascript✨<br /><br />Siapapun anda, anda dipilih untuk mencoba hasil
+        study kasus belajar javascript arul, yang diaplikasikan di website.
+      </h4>
+      <span>X</span>
+    </div>
+    <div class="cont">
+      <div>
+        <h1>pencarian warna RGB</h1>
+        <h2 class="arul">by arul ganteng sedunia</h2>
+      </div>
+      <p>klick untuk menghasilkan perpaduan warna RGB</p>
+      <button type="button">warna random</button>
+      <h2>hasil</h2>
+
+      <br /><br />
+      <p>anda juga bisa mengatur perpaduan warna RGB sendiri</p>
+      <input class="merah" type="range" name="sMerah" min="0" max="255" />
+      <input class="hijau" type="range" name="sHijau" min="0" max="255" />
+      <input class="biru" type="range" name="sBiru" min="0" max="255" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
